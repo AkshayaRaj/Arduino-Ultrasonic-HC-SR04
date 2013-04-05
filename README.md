@@ -24,7 +24,7 @@ void setup() {
 
 void loop()
 {
-  Serial.print(ultrasonic.Ranging(CM)); // CM or INC
+  Serial.print(ultrasonic.Ranging(CM)); // CM INC,FT or MM
   Serial.println(" cm" );
   Serial.println(ultrasonic.Duration())
   delay(100);
